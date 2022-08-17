@@ -33,21 +33,31 @@ li {
     color: var(--white);
 }
 
-.links {
+.navBar {
+    background-color: #181d27;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 1rem;
 }
 
-.links .link a {
+.link a {
     font-size: 1.2rem;
     padding: 1rem;
     transition: var(--transition);
+    text-decoration: none;
 }
 
 .links .link a:hover {
     color: var(--hover-color);
+}
+
+.principalImage {
+    display: block;
+    margin: 0px auto;
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
 }
 
 
