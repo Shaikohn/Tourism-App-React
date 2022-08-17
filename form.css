@@ -7,11 +7,14 @@
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: var(--main-color);
+}
+
 :root {
     --main-color: #100b26;
     --white: #ffff;
     --hover-color: #851836;
-
     --transition: all .3s ease;
 }
 
@@ -20,7 +23,6 @@ li {
 }
 
 .main {
-    /* height: 200vh; */
     font-family: 'Open Sans', sans-serif;
     background-color: var(--main-color);
     width: 100%;
@@ -52,12 +54,23 @@ li {
     color: var(--hover-color);
 }
 
-.principalImage {
+.form {
     display: block;
     margin: 0px auto;
-    margin-top: 10px;
-    max-width: 100%;
-    height: auto;
+    position: relative;
+    width: 320px;
+}
+
+.input_text {
+    border: solid 3px rgb(70, 151, 151);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    padding: 10px;
+    width: 300px;
 }
 
 

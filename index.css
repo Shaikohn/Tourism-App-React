@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --main-color: #100b26;
+    --white: #ffff;
+    --hover-color: #851836;
+
+    --transition: all .3s ease;
+}
+
+li {
+    list-style: none;
+}
+
+.main {
+    /* height: 200vh; */
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--main-color);
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.main_title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--white);
+}
+
+.navBar {
+    background-color: #181d27;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.link a {
+    font-size: 1.2rem;
+    padding: 1rem;
+    transition: var(--transition);
+    text-decoration: none;
+}
+
+.links .link a:hover {
+    color: var(--hover-color);
+}
+
+.slider {
+	width: 1280px;
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider li {
+	width: 100%;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
