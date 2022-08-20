@@ -7,8 +7,17 @@
     scroll-behavior: smooth;
 }
 
+/* PALETA DE COLORES
+#5c8d4b
+#98d26c
+#a6d7ba
+#c4c9cf
+#4f6f96 */
+
 :root {
-    --main-color: #100b26;
+    --main-color: #a6d7ba;
+    --nav-bg: #4f6f96;
+    --text-color: #4f6f96;
     --white: #ffff;
     --hover-color: #851836;
     --btn-bg: #5468ea;
@@ -28,13 +37,15 @@ li {
 }
 
 .main_title {
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    color: var(--text-color);
     text-align: center;
     font-size: 2.5rem;
-    color: var(--white);
 }
 
 .navBar {
-    background-color: #181d27;
+    background-color: var(--nav-bg);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -87,4 +98,10 @@ li {
 	
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
+}
+
+.text {
+    text-align: center;
+    font-weight: 600;
+    color: var(--text-color);
 }

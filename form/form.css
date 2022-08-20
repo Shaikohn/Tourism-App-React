@@ -1,43 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
-
-body {
-    background-color: var(--main-color);
-}
-
-:root {
-    --main-color: #100b26;
-    --white: #ffff;
-    --hover-color: #851836;
-    --btn-bg: #5468ea;
-    --transition: all .3s ease;
-}
-
-li {
-    list-style: none;
-}
+/* PALETA DE COLORES
+#5c8d4b
+#98d26c
+#a6d7ba
+#c4c9cf
+#4f6f96 */
 
 .main {
-    font-family: 'Open Sans', sans-serif;
-    background-color: var(--main-color);
-    width: 100%;
-    overflow-x: hidden;
-}
-
-.main_title {
-    text-align: center;
-    font-size: 2.5rem;
-    color: var(--white);
+    height: 100vh;
 }
 
 .navBar {
-    background-color: #181d27;
+    background-color: var(--nav-bg);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -80,6 +53,7 @@ li {
 }
 
 .submit-btn {
+    border: 2px solid var(--main-color);
     background-color: var(--btn-bg);
     color: var(--white);
     font-size: 1.2rem;
