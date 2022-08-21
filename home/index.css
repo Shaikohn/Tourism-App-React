@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
-
 /* PALETA DE COLORES
 #5c8d4b
 #98d26c
@@ -25,13 +18,8 @@
     --transition: all .3s ease;
 }
 
-li {
-    list-style: none;
-}
-
 .main {
     font-family: 'Open Sans', sans-serif;
-    background-color: var(--main-color);
     width: 100%;
     overflow-x: hidden;
 }
@@ -44,29 +32,10 @@ li {
     font-size: 2.5rem;
 }
 
-.navBar {
-    background-color: var(--nav-bg);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 1rem;
-}
-
-.link a {
-    font-size: 1.2rem;
-    padding: 1rem;
-    transition: var(--transition);
-    text-decoration: none;
-}
-
-.links .link a:hover {
-    color: var(--hover-color);
-}
-
 .slider {
-	width: 1280px;
-    height: auto;
-	margin:50px auto 0;
+	width: 800px;
+    height: 400px;
+	margin: 50px auto 0;
 	overflow: hidden;
 }
 
@@ -74,7 +43,6 @@ li {
 	display: flex;
 	padding: 0;
 	width: 400%;
-	
 	animation: slide 20s infinite alternate ease-in-out;
 }
 
