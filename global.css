@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
@@ -13,7 +15,6 @@
     --black: #0000;
     --hover-color: #851836;
     --btn-bg: #5468ea;
-
     --transition: all .3s ease;
 }
 
@@ -27,8 +28,22 @@ ul {
     flex-direction: row;
     font-family: 'Open Sans', sans-serif;
     justify-content: space-around;
-    padding: 1rem;
     list-style: none;
+    padding: 1rem;
+}
+
+.main {
+    font-family: 'Dancing Script', cursive;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.main_title {
+    color: var(--text-color);
+    font-size: 2.5rem;
+    padding-bottom: .5rem;
+    padding-top: 1rem;
+    text-align: center;
 }
 
 li {
@@ -38,8 +53,8 @@ li {
 .link a {
     font-size: 1.2rem;
     padding: 1rem;
-    transition: var(--transition);
     text-decoration: none;
+    transition: var(--transition);
 }
 
 .links .link a:hover {
@@ -47,26 +62,28 @@ li {
 }
 
 footer {
+    align-items: center;
+    background-color: #4f6f96;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: gray;
 }
 
 .footer-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     text-align: center;
 }
 
 .col-title {
-    padding: 0.3rem;
+    color: var(--white);
     font-size: 1.2rem;
     font-weight: 600;
+    padding: 0.3rem;
 }
 
 .col-subtitle {
+    color: var(--white);
     font-size: 1.1rem;
     font-weight: 600;
     padding: 0.3rem;
