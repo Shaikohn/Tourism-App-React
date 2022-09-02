@@ -18,6 +18,10 @@ p {
     margin-bottom: 5px;
 }
 
+p a {
+    color: red;
+}
+
 .map {
     border: 3px #4f6f96 solid;
     border-radius: 10px;
