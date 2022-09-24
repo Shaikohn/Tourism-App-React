@@ -9,66 +9,69 @@
 
 :root {
     --main-color: #a6d7ba;
-    --nav-bg: #4f6f96;
+    --nav-bg: #181d27;
     --text-color: #4f6f96;
     --white: #ffff;
     --black: #0000;
     --hover-color: #851836;
     --btn-bg: #5468ea;
+    --bg: #282c34;
+
     --transition: all .3s ease;
-}
-
-body {
-    background-color: #282c34;
-}
-
-ul {
-    background-color: #181d27;
-    display: flex;
-    flex-direction: row;
-    font-family: 'Open Sans', sans-serif;
-    justify-content: space-around;
-    list-style: none;
-    padding: 1rem;
-}
-
-.main {
-    font-family: 'Dancing Script', cursive;
-    overflow-x: hidden;
-    width: 100%;
-}
-
-.main_title {
-    color: var(--text-color);
-    font-size: 2.5rem;
-    padding-bottom: .5rem;
-    padding-top: 1rem;
-    text-align: center;
 }
 
 li {
     list-style: none;
 }
 
+.main {
+    background-color: var(--bg);
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.main_title {
+    color: var(--white);
+    font-size: 2.5rem;
+    padding-bottom: .5rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.navbar {
+    background-color: var(--nav-bg);
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
 .link a {
+    color: var(--white);
     font-size: 1.2rem;
     padding: 1rem;
     text-decoration: none;
     transition: var(--transition);
 }
 
-.links .link a:hover {
+.link a:hover {
     color: var(--hover-color);
 }
 
 footer {
     align-items: center;
-    background-color: #4f6f96;
+    background-color: var(--nav-bg);
+    color: var(--white);
     display: flex;
     justify-content: center;
 }
 
 .footer-grid {
+    padding: 1rem;
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -90,12 +93,13 @@ footer {
 }
 
 .icon {
+    color: var(--hover-color);
     font-size: 1.8rem;
     padding: 0 .4rem;
 }
 
 .copy-line {
-    background-color: var(--black);
+    background-color: var(--nav-bg);
     color: var(--white);
     padding: .3rem;
     text-align: center;
