@@ -6,6 +6,7 @@
 }
 
 .video {
+    border-radius: 5px;
     float: right;
     margin-right: 10px;
     margin-top: 10px;
