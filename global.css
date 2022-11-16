@@ -104,3 +104,8 @@ footer {
     padding: .3rem;
     text-align: center;
 }
+
+i:hover {
+    color:var(--white);
+    transition: var(--transition);
+}
