@@ -79,14 +79,14 @@ footer {
 }
 
 .col-title {
-    color: var(--white);
+    color: var(--text-color);
     font-size: 1.2rem;
     font-weight: 600;
     padding: 0.3rem;
 }
 
 .col-subtitle {
-    color: var(--white);
+    color: var(--text-color);
     font-size: 1.1rem;
     font-weight: 600;
     padding: 0.3rem;
@@ -100,7 +100,7 @@ footer {
 
 .copy-line {
     background-color: var(--nav-bg);
-    color: var(--white);
+    color: var(--hover-color);
     padding: .3rem;
     text-align: center;
 }
