@@ -12,18 +12,33 @@
     margin-top: 10px;
 }
 
+.infoContainer {
+    display: flex; 
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    border: 3px #4f6f96 solid;
+    border-radius: 10px;
+    justify-content: center;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    width: 400px;
+}
+
 .text-section {
     padding: 1.5rem;
 }
 
 h3 {
-    padding: 2.5rem 0 1rem 0;
+    /* padding: 2.5rem 0 1rem 0; */
     color: var(--white);
 }
 
 p {
     color: var(--white);
     font-size: 16px;
+    margin-bottom: 10px;
 }
 
 p a {
@@ -45,4 +60,28 @@ p a {
 
 .sub_header {
     color: #4f6f96;
+}
+
+#ubication {
+    display: none;
+}
+
+#clima {
+    display: none;
+}
+
+#fiesta1 {
+    display: none;
+}
+
+#fiesta2 {
+    display: none;
+}
+
+button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
