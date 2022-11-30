@@ -10,5 +10,17 @@ Para finalizar el curso Yo Puedo Programar de Junior Achievement Argentina, se n
 - Botones que despliegan información
 - Un mapa con la ubicación de la localidad
 
+// English
+
+At the end of Yo Puedo Programar, from Junior Achievement Argentina, we were asked to make a web page as a team using HTML, CSS and JavaScript.
+ Together with my partner, we decided to create an application dedicated to promoting a town in Córdoba, which includes the following features:
+
+- An automatic image slideshow
+- A NavBar
+- A Footer
+- An informative video about the town
+- Buttons that display and occult information
+- A map with the location of the town
+
 <img height="300" src="./img/Inicio.png" />
 <img height="300" src="./img/Info.png" />
