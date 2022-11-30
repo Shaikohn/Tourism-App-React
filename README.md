@@ -10,5 +10,5 @@ Para finalizar el curso Yo Puedo Programar de Junior Achievement Argentina, se n
 - Botones que despliegan información
 - Un mapa con la ubicación de la localidad
 
-<img height="200" src="./img/Inicio.png" />
-<img height="200" src="./img/Info.png" />
+<img height="300" src="./img/Inicio.png" />
+<img height="300" src="./img/Info.png" />
