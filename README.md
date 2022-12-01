@@ -1,4 +1,6 @@
-# Proyecto Final - Yo Puedo Programar
+# Final Project - Yo Puedo Programar
+
+# Spanish
 
 Para finalizar el curso Yo Puedo Programar de Junior Achievement Argentina, se nos encargó realizar en equipo una página web utilizando HTML, CSS Y JavaScript.
  Junto a mi compañero, decidimos crear una aplicación dedicada a promocionar una localidad de Córdoba, que incluye las siguientes caracteristicas:
@@ -10,7 +12,7 @@ Para finalizar el curso Yo Puedo Programar de Junior Achievement Argentina, se n
 - Botones que despliegan información
 - Un mapa con la ubicación de la localidad
 
-// English
+# English
 
 At the end of Yo Puedo Programar, from Junior Achievement Argentina, we were asked to make a web page as a team using HTML, CSS and JavaScript.
  Together with my partner, we decided to create an application dedicated to promoting a town in Córdoba, which includes the following features:
