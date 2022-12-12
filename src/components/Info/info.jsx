@@ -1,15 +1,11 @@
 import './Info.css'
 import '../Global.css'
+import NavBar from '../NavBar/NavBar'
 
 export default function Info() {
     return (
     <div className="main">
-        <ul className="navbar">
-            <div className="nav-list">
-                <li className="link"><a href="../index.html">Home</a></li>
-                <li className="link"><a href="info.html">Información</a></li>
-            </div>
-        </ul>
+        <NavBar />
         <div className="video">
             <iframe className="video" width="560" height="315" src="https://www.youtube.com/embed/pyurxSPXM5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <h3 className="sub_header">Video de la municipalidad de Villa General Belgrano</h3>

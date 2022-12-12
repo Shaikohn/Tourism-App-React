@@ -4,16 +4,12 @@ import image1 from "../../assets/img-1.jpg"
 import image2 from "../../assets/img-2.jpg"
 import image3 from "../../assets/img-3.jpg"
 import image4 from "../../assets/img-4.jpg"
+import NavBar from '../NavBar/NavBar'
 
 export default function Home() {
     return (
         <div className="main">
-        <ul className="navbar">
-            <div className="nav-list">
-                <li className="link"><a href="Home">Home</a></li>
-                <li className="link"><a href="./Info/info">Información</a></li>
-            </div>
-        </ul>
+        <NavBar />
         <h1 className="main_title">Visitá Villa General Belgrano</h1>
         <p className="text">Un pueblo con fiestas en donde las tradiciones se entremezclan con la buena gastronomía y la cordialidad de su gente</p>
             <div className="slider">

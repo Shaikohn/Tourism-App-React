@@ -48,9 +48,10 @@ li {
     flex-direction: row;
     justify-content: space-around;
     padding: 1rem;
+    text-decoration: none;
 }
 
-.link a {
+.link Link {
     color: var(--white);
     font-size: 1.2rem;
     padding: 1rem;
@@ -58,7 +59,7 @@ li {
     transition: var(--transition);
 }
 
-.link a:hover {
+.link Link:hover {
     color: var(--hover-color);
 }
 
