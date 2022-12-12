@@ -1,22 +1,23 @@
 import './Home.css'
+import '../Global.css'
 
 export default function Home() {
     return (
         <div className="main">
         <ul className="navbar">
             <div className="nav-list">
-                <li className="link"><a href="index.html">Home</a></li>
-                <li className="link"><a href="./info/info.html">Información</a></li>
+                <li className="link"><a href="Home">Home</a></li>
+                <li className="link"><a href="./Info/info">Información</a></li>
             </div>
         </ul>
         <h1 className="main_title">Visitá Villa General Belgrano</h1>
         <p className="text">Un pueblo con fiestas en donde las tradiciones se entremezclan con la buena gastronomía y la cordialidad de su gente</p>
             <div className="slider">
                 <ul>
-                    <li><img src="./img/img-1.jpg" alt="" /></li>
-                    <li><img src="./img/img-2.jpg" alt="" /></li>
-                    <li><img src="./img/img-3.jpg" alt="" /></li>
-                    <li><img src="./img/img-4.jpg" alt="" /></li>
+                    <li><img src="./assets/img-1.jpg" alt="" /></li>
+                    <li><img src="./assets/img-2.jpg" alt="" /></li>
+                    <li><img src="./assets/img-3.jpg" alt="" /></li>
+                    <li><img src="./assets/img-4.jpg" alt="" /></li>
                 </ul>
         </div>
         <section className="description">
