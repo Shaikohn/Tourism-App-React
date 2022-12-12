@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="info.js" language="javascript" type="text/javascript"></script>
-    <link rel="stylesheet" href="info.css">
-    <link rel="stylesheet" href="../global.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-    <title>Villa Gral Belgrano</title>
-</head>
-<body>
+import './Info.css'
+
+export default function Info() {
+    return (
     <div class="main">
         <ul class="navbar">
             <div class="nav-list">
@@ -84,6 +75,5 @@
             <p class="copy">Copyright© 2022 Juan Giacobbe and Shai Kohn || All rights reserved.</p>
         </div>
     </div>
-    </div>
-</body>
-</html>
+    )
+}
