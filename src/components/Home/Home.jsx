@@ -1,5 +1,9 @@
 import './Home.css'
 import '../Global.css'
+import image1 from "../../assets/img-1.jpg"
+import image2 from "../../assets/img-2.jpg"
+import image3 from "../../assets/img-3.jpg"
+import image4 from "../../assets/img-4.jpg"
 
 export default function Home() {
     return (
@@ -14,10 +18,10 @@ export default function Home() {
         <p className="text">Un pueblo con fiestas en donde las tradiciones se entremezclan con la buena gastronomía y la cordialidad de su gente</p>
             <div className="slider">
                 <ul>
-                    <li><img src="./assets/img-1.jpg" alt="" /></li>
-                    <li><img src="./assets/img-2.jpg" alt="" /></li>
-                    <li><img src="./assets/img-3.jpg" alt="" /></li>
-                    <li><img src="./assets/img-4.jpg" alt="" /></li>
+                    <li><img src={image1} alt="" /></li>
+                    <li><img src={image2} alt="" /></li>
+                    <li><img src={image3} alt="" /></li>
+                    <li><img src={image4} alt="" /></li>
                 </ul>
         </div>
         <section className="description">
